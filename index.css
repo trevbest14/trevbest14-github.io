@@ -1,0 +1,28 @@
+h1{
+    color: green;
+    font-style: oblique;
+    text-align: center;
+    background-color: black;
+}
+
+html{
+    background-color:darkgreen;
+}
+body{
+    text-align: center;
+}
+article{
+    text-orientation: horizontal;
+    text-align: center;
+}
+grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+   
+    color: gold;
+    font-style: oblique;
+    background-color:darkgoldenrod;
+    text-align: center;   
+}
